@@ -6,13 +6,14 @@
     <title>Рок гурт "НЕ лізь БО вб'є"</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="css/social-buttons.css" rel="stylesheet" />
     <script src="main.js"></script>
   </head>
   <body>
     <header class="main-header">
       <!--Логотип сайту-->
       <a class="main-header-logo" href="#">
-        <img src="img/logo.svg" alt="Логотип гурту НЕ лізь БО вб'є" />
+        <img src="img/logo.png" alt="Логотип гурту НЕ лізь БО вб'є" />
       </a>
       <!--Кінець блоку логотип сайту-->
 
@@ -55,16 +56,16 @@
             <h3>Фестивалі</h3>
             <p>
               У різні роки наш гурт приймав участь у фестивалях в різних
-              куточках країни. А саме WoodstockUA (Одеська обл.), Drive for life
-              (Івано-Франківська обл.), Bereziv Bander Fest (Івано-Франківська
-              обл.), Живий Вогонь (Вінницька обл.), Only rock-n-roll (Рівненська
-              обл.), Купальська спека (Вінницька обл.), Skyline(Вінницька обл.),
-              Молот (Житомирська обл.), Revolution (Київська обл.), Дикі музики
-              (Кихвська обл.) та інші.
+              куточках країни. А саме WoodstockUA <span>(Одеська обл.)</span>, Drive for life
+              <span>(Івано-Франківська обл.)</span>, Bereziv Bander Fest <span>(Івано-Франківська
+              обл.)</span>, Живий Вогонь <span>(Вінницька обл.)</span>, Only rock-n-roll <span>(Рівненська
+              обл.)</span>, Купальська спека <span>(Вінницька обл.)</span>, Skyline<span>(Вінницька обл.)</span>,
+              Молот <span>(Житомирська обл.)</span>, Revolution <span>(Київська обл.)</span>, Дикі музики
+            <span>(Київська обл.)</span> та інші.
             </p>
-            <a class="button">Про нас</a>
+            
           </li>
-          <li class="slides slide2">
+          <!--<li class="slides slide2">
             <h3>Байкерські фестивалі</h3>
             <p>
               За свою історію гурт "НЕ лізь БО вб'є" став учасником багатьох
@@ -72,7 +73,7 @@
               Загул), Харківський (Приезжай), Закарпатській (Avia Bike Show),
               Одеській (Балтанка, Goblin show), Миколаївській областях.
             </p>
-            <a class="button">Про нас</a>
+            
           </li>
           <li class="slides slide3">
             <h3>Виступи на конкурсах</h3>
@@ -86,7 +87,7 @@
               Джем ФМ (Київ). Окрім того гурт був учасником конкурсу-фестивалю
               "Українська пісня" (Львів).
             </p>
-            <a class="button">Про нас</a>
+           
           </li>
           <li class="slides slide4">
             <h3>Виступи в пабах</h3>
@@ -97,9 +98,10 @@
               Харківській, Сумській, Дніпровській, Миколаївській, Львівській,
               Житомирській та Тернопільській областях
             </p>
-            <a class="button">Про нас</a>
-          </li>
+            
+          </li>-->
         </ul>
+        <a class="button" href="#">Про нас</a>
       </section>
       <!--Кінець слайдера-->
     </header>
@@ -110,12 +112,12 @@
       </h1>
       <!--Блок Про нас-->
       <section class="main-about-us">
-        <figure class="main-about-us-logo">
-          <a href="#">
+        <figure>
+          <a href="about-us.html">
             <img
-              src="img/logo.svg"
+              src="img/logo.png"
               width="284"
-              height="164"
+              
               alt="Логотип нашого гурту"
             />
           </a>
@@ -135,7 +137,7 @@
             Останнім часом гурт випускає по 5-7 синглів у рік, які представлені
             на офіційних сторінках гурту.
           </p>
-          <a class="button">Читати більше</a>
+          <a class="button" href="about-us.html">Читати більше</a>
         </div>
       </section>
       <!--Кінець Блоку Про нас-->
@@ -143,6 +145,7 @@
       <!--Блок з промо відео-->
       <section class="promo-video">
         <h2 class="visually-hidden">Промо-відео гурту</h2>
+        <div class="video-button"></div>
         <!--Видео-->
       </section>
       <!--Кінець Блок з промо відео-->
@@ -177,9 +180,9 @@
               <li>
                   <img src="">
                   <p>
-                      <span class="member-name">Андрій Рудик</span>
+                      <span class="member-name">Анатолій Савчук</span>
                       <br>
-                      Вокал
+                      Бас-гітара
                   </p>
               </li>
               <li>
@@ -209,11 +212,12 @@
               <li>
                   <img src="">
                   <p>
-                      <span class="member-name">Анатолій Савчук</span>
+                      <span class="member-name">Андрій Рудик</span>
                       <br>
-                      Бас-гітара
+                      Вокал
                   </p>
               </li>
+              
               <li>
                   <img src="">
                   <p>
@@ -248,23 +252,27 @@
     </main>
     
     <footer class="main-footer">
-        <p>
-            <img src="logo.svg">
-            Офіційний сайт вінницького рок гурту "НЕ лізь БО вб'є"
-        </p>
-        <p>
-            Контакти 
-            <br>
-            0638157537
-        </p>
-        <div class="main-social-buttons">
-            <ul class="social-buttons-list">
-                <li class="fb-button"><span class="visually-hidden">Фейсбук</span></li>
-                <li class="insta-button"><span class="visually-hidden">Інстаграм</span></li>
-                <li class="youtube-button"><span class="visually-hidden">Ютуб</span></li>
-                <li class="twitter-button"><span class="visually-hidden">Твітер</span></li>
-            </ul>
-        </div>
+      <section class="footer-site-name">
+          <img src="img/logo.png">
+          <p>Офіційний сайт вінницького рок гурту "НЕ лізь БО вб'є"</p>
+      </section>
+      <section class="footer-contacts">
+          Організація концертів:
+          <br>
+          0638157537
+      </section>
+      <section class="footer-social-buttons">
+        <ul>
+          <li class="fb-button">
+              <a href="#" class="sb circle blue facebook">Інстаграм</a>
+          </li>
+          <li class="insta-button">
+            <a href="#" class="sb circle purple linkedin">Інстаграм</a>
+          </li>
+          <li class="youtube-button"><span class="visually-hidden">Ютуб</span></li>
+          <li class="twitter-button"><a href="#" class="sb circle blue twitter">Твитер</a></li>
+        </ul>
+      </section>
     </footer>
   </body>
 </html>

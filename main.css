@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad Pro", "PT Sans Narrow", Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+
+.container {
+    width: 1024px;
+    margin: auto;
+    background-color: #ffffff;
+    font-size: 16px;
+    color: #000000;
+    line-height: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000000;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 1024px;
+    height: 430px;
+    background-color: lightcyan;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.85), rgba(255, 0, 0, 0.85)), url("img/header-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, contain;
+}
+
+.main-header-logo a {
+    width: 15%;
+    margin: 25px 10px;
+}
+
+.main-header a img {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.main-navigation {
+    margin: 10px 5px;
+    width: 60%;
+    font-size: 13px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.main-navigation a:hover {
+    color: #00e0d0;
+}
+
+.main-navigation ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+/*Слайдер на хедере*/
+
+.main-header-our-concerts {}
+
+.slider {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slides {
+    text-align: center;
+    color: #ffffff;
+    line-height: 28px;
+}
+
+.slides span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.slides h3 {
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.slides p {
+    font-size: 16px;
+}
+
+/*Конец слайдера на хедере*/
+
+/*Кнопка*/
+
+.button {
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #01dfd0;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    border: 1px solid #01dfd0;
+    padding: 10px 20px;
+}
+
+.button:hover, .button:focus, .button:active {
+    border: 3px solid #01dfd0;
+    font-weight: bolder;
+    margin-bottom: -4px;
+}
+
+/*Конец кнопка*/
+
+/*Блок про нас на главной*/
+
+.main-about-us {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.main-about-us figure {
+    display: block;
+    margin: auto;
+}
+
+.main-about-us-text {
+    width: 50%;
+}
+
+.main-about-us-text a {
+    margin-left: 0px;
+    transform: none;
+}
+
+/*КОнец блока про нас на главной*/
+
+/*Промо видео*/
+
+.promo-video {
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.85), rgba(255, 0, 0, 0.85)), url("img/promo-video.png");
+    background-repeat: no-repeat, no-repeat;
+    width: 100%;
+    height: 250px;
+    padding-top: 150px;
+}
+
+.video-button {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    opacity: 0.5;
+    margin: auto;
+}
+
+.video-button::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    background-color: #00e0d0;
+}
+
+/*КОнец блока с промо видео*/
+
+/*Блок усслуги группы*/
+
+.main-our-services {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.services li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    width: 33.33%;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+.services li img {
+    order: -1;
+    padding: 0 5px;
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+/*Конец блока услуги группы*/
+
+/*Блок учасники группы*/
+
+.main-members {
+    margin-top: 80px;
+    width: 90%;
+    padding: 25px 5%;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.85), rgba(255, 0, 0, 0.85)), url("img/header-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+.members-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.members-list li {
+    margin: 5px;
+    width: 20%;
+    border: 1px solid green;
+    text-align: center;
+    font-style: italic;
+}
+
+.members-list .member-name {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.members-list li img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    /*!!!!!!!!!!!!!!!!*/
+    margin: auto;
+}
+
+/*Конец блока учансики группы*/
+
+/*Блок фото с концертов*/
+
+.concert-photos {
+    width: 100%;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+
+.concert-photos h2 {
+    text-align: center;
+}
+
+.photos-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+.photos-list li {
+    width: 16.6%;
+    height: 120px;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.photos-list li:nth-child(6n) {
+    width: 17%;
+}
+
+/*Конец блока фото с концертов*/
+
+.main-footer {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.85), rgba(255, 0, 0, 0.85)), url("img/footer-image.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, cover;
+    background-position-y: 0, -250px;
+}
+
+.footer-site-name {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 5%;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.footer-site-name img {
+    width: 100px;
+    height: 80px;
+}
+
+.footer-site-name p {
+    margin-left: 20px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-contacts {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.footer-social-buttons ul {
+    list-style: none;
+    margin-right: 40px;
+}
+
+/*КОнец футера*/
